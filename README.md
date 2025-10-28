@@ -1,3 +1,4 @@
+
 # 📊 Sales Performance Analytics Dashboard
 **Virtual Internship Program — Bank Muamalat x Rakamin Academy**
 
@@ -27,7 +28,7 @@ There are 4 main tables used in this project:
 ---
 
 ## 🧩 ERD (Entity Relationship Diagram)
-![ERD](ERD_BIanalyst.drawio.png)
+<img width="511" height="462" alt="ERD_BIanalyst drawio" src="https://github.com/user-attachments/assets/b1ab9aa1-9f27-4b29-94f9-405174fdf5ce" />
 
 ---
 ## 📈 Dashboard Overview
