@@ -30,6 +30,33 @@ There are 4 main tables used in this project:
 ![ERD](ERD_BIanalyst.drawio.png)
 
 ---
+## 📈 Dashboard Overview
+  ![WhatsApp Image 2025-10-28 at 23 38 51_c22b54cd](https://github.com/user-attachments/assets/9587ceb4-65d5-4e25-891e-93f135a48f42)
+
+- Tools used:
+
+  - Google BigQuery
+  - Looker Studio
+  - Python (Pandas)
+  - Draw.io
+  - Google Sheets
+
+---
+
+## 💡 Insights
+- Total sales reached $1,754,750.57 with 11,654 items sold
+- Top-selling products: Robots and Drones
+- Cities with highest revenue: Washington and Houston
+- Most sold categories: eBooks and Training Videos
+
+---
+
+## 🧭 Recommendations
+- Optimize inventory & marketing for top-performing products
+- Focus campaigns on cities with high sales potential
+- Implement BI monitoring to track product performance by region
+- Consider promotions for underperforming categories to balance revenue
+
 
 ## ⚙️ Data Processing in BigQuery
 
@@ -53,33 +80,3 @@ JOIN `finalproject-476410.master_sales.products` AS p
 JOIN `finalproject-476410.master_sales.product_category` AS pc
   ON p.Category = pc.CategoryID
 ORDER BY o.Date ASC;
-
-
-## 📈 Dashboard Overview
-
-![Dashboard Preview](images/dashboard_preview.png)
-
-**Tools Used:**
-- Google BigQuery
-- Looker Studio
-- Python (Pandas)
-- Draw.io
-- Google Sheets
-
----
-
-## 💡 Insights
-
-- Total sales reached **$1,754,750.57** with **11,654 items sold**
-- Top-selling products: **Robots** and **Drones**
-- Cities with highest revenue: **Washington** and **Houston**
-- Most sold categories: **eBooks** and **Training Videos**
-
----
-
-## 🧭 Recommendations
-
-- Optimize inventory & marketing for top-performing products  
-- Focus campaigns on cities with high sales potential  
-- Implement BI monitoring to track product performance by region  
-- Consider promotions for underperforming categories to balance revenue  
